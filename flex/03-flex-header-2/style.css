@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
 .profile-image {
@@ -29,6 +33,21 @@ body {
   font-style: italic;
 }
 
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.notifications {
+  font-size: 1rem;
+}
+
 button {
   border: none;
   border-radius: 8px;
@@ -41,6 +60,7 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  font-size: 1rem;
 }
 
 ul {
